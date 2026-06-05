@@ -6,9 +6,9 @@
 
 **Bot phát nhạc chất lượng cao, mượt mà, không delay dành cho cộng đồng Discord của bạn.**
 
-[![Discord](https://img.shields.io/badge/Server%20H%E1%BB%97%20Tr%E1%BB%A3-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vnc)
+[![Discord](https://img.shields.io/badge/Server%20H%E1%BB%97%20Tr%E1%BB%A3-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://beemusic.vncore.net/discord))
 [![Website](https://img.shields.io/badge/Trang%20Ch%E1%BB%A7-beemusic.vncore.net-ffb300?style=for-the-badge&logo=googlechrome&logoColor=white)](https://beemusic.vncore.net)
-[![Invite](https://img.shields.io/badge/Th%C3%AAm%20Bot-Invite%20BeeGold-green?style=for-the-badge&logo=discord&logoColor=white)](https://beemusic.vncore.net/discord)
+[![Invite](https://img.shields.io/badge/Th%C3%AAm%20Bot-Invite%20BeeGold-green?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512007881543913552&permissions=2150754416&scope=bot+applications.commands)
 
 Chào mừng bạn đến với **BeeMusic**! Đây là hệ thống bot phát nhạc chuyên nghiệp, giúp nâng tầm kết nối cộng đồng của bạn thông qua những giai điệu chất lượng cao hoàn toàn miễn phí.
 
@@ -60,7 +60,7 @@ Nâng cấp lên **BeeMusic Premium** để mở khóa toàn bộ sức mạnh c
 - 🎨 Tùy biến Avatar & Tên của bot theo phong cách riêng của server bạn.
 - 🚀 Băng thông phát nhạc ưu tiên cao nhất, không lo giật lag.
 
-👉 Nâng cấp ngay tại: [beemusic.vncore.net/premium](https://beemusic.vncore.net/premium)
+👉 Nâng cấp ngay tại: [beemusic.vncore.net/](https://beemusic.vncore.net/)
 
 ---
 
