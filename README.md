@@ -135,7 +135,7 @@ Nâng cấp lên **BeeMusic Premium** để mở khóa toàn bộ sức mạnh c
 ## 📞 Hỗ Trợ Kỹ Thuật
 
 Nếu bạn gặp bất kỳ khó khăn nào trong quá trình sử dụng hoặc muốn đóng góp ý kiến:
-- **Server Discord Hỗ Trợ:** [Tham gia tại đây (discord.gg/vnc)](https://discord.gg/WfQmNFSAcq)
+- **Server Discord Hỗ Trợ:** [Tham gia tại đây (discord)](https://discord.gg/WfQmNFSAcq)
 - **Trang chủ:** [beemusic.vncore.net](https://beemusic.vncore.net)
 - **Email liên hệ:** support@vncore.net
 
