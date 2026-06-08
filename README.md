@@ -10,11 +10,15 @@
 [![Website](https://img.shields.io/badge/Trang%20Ch%E1%BB%A7-beemusic.vncore.net-ffb300?style=for-the-badge&logo=googlechrome&logoColor=white)](https://beemusic.vncore.net)
 [![Invite](https://img.shields.io/badge/Th%C3%AAm%20Bot-Invite%20BeeGold-green?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512007881543913552&permissions=2150754416&scope=bot+applications.commands)
 
-Chào mừng bạn đến với **BeeMusic**! Đây là hệ thống bot phát nhạc chuyên nghiệp, giúp nâng tầm kết nối cộng đồng của bạn thông qua những giai điệu chất lượng cao hoàn toàn miễn phí.
+[🇻🇳 Tiếng Việt](#-tiếng-viet) | [🇬🇧 English](#-english)
 
 </div>
 
 ---
+
+# 🇻🇳 Tiếng Việt
+
+Chào mừng bạn đến với **BeeMusic**! Đây là hệ thống bot phát nhạc chuyên nghiệp, giúp nâng tầm kết nối cộng đồng của bạn thông qua những giai điệu chất lượng cao hoàn toàn miễn phí.
 
 ## 🌟 Tại sao nên chọn BeeMusic?
 
@@ -141,6 +145,135 @@ Nếu bạn gặp bất kỳ khó khăn nào trong quá trình sử dụng hoặ
 
 ---
 
+# 🇬🇧 English
+
+Welcome to **BeeMusic**! A professional Discord music bot system designed to elevate your community through high-quality music streaming entirely for free.
+
+## 🌟 Why Choose BeeMusic?
+
+- 🎵 **Unlimited Music Catalog** — Stream seamlessly from **YouTube, Spotify, SoundCloud, Apple Music**, and many other platforms.
+- 🔊 **Premium Audio Quality** — Supports standard **192kbps** (Free) and up to **320kbps HIFI** (Premium) for the crystal-clear listening experience.
+- 🎛️ **Rich Audio Filters** — Customize your music with filters: *Bassboost, 8D, Nightcore, Vaporwave, Karaoke, and more.*
+- 🎮 **Intuitive Control Panel (Setup Panel)** — Create a dedicated music channel with a button-based UI. Play, pause, skip, or change volume without typing commands.
+- 🤖 **Multi-Bot System** — Use the bot trio **BeeGold** (Primary), **BeeBlue**, and **BeePink** to stream concurrently in multiple voice channels.
+- 📡 **24/7 Connection** — Keep the bot connected in your channel even when the queue is empty, ready for the next song (`/247`).
+- 🔁 **Autoplay Mode** — Automatically search and play similar songs when the queue ends.
+- 📝 **Personal Playlists** — Save your favorite tracks and play them back instantly anytime.
+- 🇻🇳🇺🇸 **Dual Language Support** — Friendly English and Vietnamese interfaces, easy to configure.
+
+---
+
+## 🎮 Complete Command List (42 Commands)
+
+BeeMusic uses Discord's intuitive Slash (`/`) command system. Below is the full command list categorized by features:
+
+<details>
+<summary>🎵 <b>1. Playback Commands (23 commands)</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `/play <name / link>` | Search and play music from YouTube, Spotify, SoundCloud, Apple Music... |
+| `/pause` | Pause the currently playing song |
+| `/resume` | Resume playback of the paused song |
+| `/skip` | Skip the current song and play the next one |
+| `/stop` | Stop playback, clear the queue, and leave the voice channel |
+| `/queue` | View the list of tracks in the queue |
+| `/nowplaying` | Display details and progress of the currently playing track |
+| `/volume <0-150>` | Adjust the bot's volume (Bronze max 120%, Silver+ max 150%) |
+| `/join` | Make the bot join your voice channel |
+| `/leave` | Disconnect the bot from the voice channel |
+| `/loop <off/track/queue>` | Toggle loop mode for the current track or the entire queue |
+| `/shuffle` | Shuffle the order of songs in the queue |
+| `/seek <time>` | Seek to a specific timestamp (e.g., `1m30s`, `45s`) |
+| `/forward <seconds>` | Fast forward the song by a specific duration |
+| `/rewind <seconds>` | Rewind the song by a specific duration |
+| `/lyrics [title]` | Search lyrics for the current song or any specified title |
+| `/jump <index>` | Jump directly to a specific song number in the queue |
+| `/previous` | Play the previously played track |
+| `/replay` | Replay the current track from the beginning |
+| `/grab` | Send details of the current song to your Direct Messages (DMs) |
+| `/clearqueue` | Clear all tracks in the queue |
+| `/remove <index>` | Remove a specific song from the queue by its index |
+| `/removedups` | Scan and remove duplicate tracks from the queue |
+
+</details>
+
+<details>
+<summary>🎛️ <b>2. Audio Filters (10 commands)</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `/8d` | Apply the 8D rotating surround sound effect |
+| `/bassboost <low/medium/high>` | Boost bass levels with adjustable intensity |
+| `/clearfilter` | Remove all active audio filters |
+| `/karaoke` | Filter out vocals to play only instrumental backing |
+| `/lofi` | Apply a relaxing, low-fidelity chill filter |
+| `/lowpass` | Apply a lowpass frequency cutoff filter |
+| `/nightcore` | Speed up playback speed (tempo) and raise pitch |
+| `/slowmode` | Slow down playback speed and tempo |
+| `/timescale` | Manually scale playback speed and pitch |
+| `/vaporwave` | Apply a slowed-down, aesthetic vaporwave audio filter |
+
+</details>
+
+<details>
+<summary>📝 <b>3. Playlist Commands (1 command)</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `/playlist` | Manage custom personal playlists (Create, delete, add, play) |
+
+</details>
+
+<details>
+<summary>⚙️ <b>4. Settings Commands (4 commands)</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `/247` | Toggle 24/7 mode to keep the bot connected in voice (requires Silver tier or higher) |
+| `/setup` | Set up a static song requests channel with interactive button controller (Admin) |
+| `/premium` | View package info and activate/deactivate Premium for the server |
+| `/language` | Configure the bot's display and response language (English / Vietnamese) |
+
+</details>
+
+<details>
+<summary>🛠️ <b>5. Utility Commands (4 commands)</b></summary>
+
+| Command | Description |
+|---------|-------------|
+| `/ping` | Check connection latency to Discord and the music server |
+| `/help` | Display the user guidebook and quick help menu |
+| `/invite` | Get invitation links to add BeeMusic bots to your servers |
+| `/sleeptimer <minutes>` | Set a timer to automatically stop music and leave after X minutes |
+
+</details>
+
+---
+
+## 💎 What's Special About Premium?
+
+Upgrade to **BeeMusic Premium** to unlock the full power of the bot:
+- ⚡ **320kbps HIFI Audio Quality** — studio-grade sound.
+- 🎛️ Unlock all **premium audio filters** (Extreme Bassboost, 8D effects...).
+- 🔁 Save unlimited songs in your personal playlists.
+- 👑 **Server-wide Premium Activation** (everyone in the server gets premium benefits).
+- 🎨 Customize the bot's name and avatar to match your server style.
+- 🚀 Priority connection bandwidth for lag-free playback.
+
+👉 Upgrade now at: [beemusic.vncore.net](https://beemusic.vncore.net/)
+
+---
+
+## 📞 Technical Support
+
+If you face any issues or want to leave feedback:
+- **Support Discord Server:** [Join here (discord)](https://discord.gg/WfQmNFSAcq)
+- **Website:** [beemusic.vncore.net](https://beemusic.vncore.net)
+- **Contact Email:** support@vncore.net
+
+---
+
 <div align="center">
-  Phát triển với 💛 bởi <a href="https://vncore.net">VNCore</a>
+  Developed with 💛 by <a href="https://vncore.net">VNCore</a>
 </div>
