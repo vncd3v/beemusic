@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://beemusic.vncore.net/img/beegold.png" alt="BeeMusic Logo" width="480" />
+<img src="https://beemusic.vncore.net/img/bee.png" alt="BeeMusic Logo" width="320" />
 
 # 🐝 BeeMusic — Trải Nghiệm Âm Nhạc Đỉnh Cao Trên Discord
 
