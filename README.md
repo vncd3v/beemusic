@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://beemusic.vncore.net/img/beegold.png" alt="BeeMusic Logo" width="120" />
+<img src="https://beemusic.vncore.net/img/beegold.png" alt="BeeMusic Logo" width="480" />
 
 # 🐝 BeeMusic — Trải Nghiệm Âm Nhạc Đỉnh Cao Trên Discord
 
 **Bot phát nhạc chất lượng cao, mượt mà, không delay dành cho cộng đồng Discord của bạn.**
 
-[![Discord](https://img.shields.io/badge/Server%20H%E1%BB%97%20Tr%E1%BB%A3-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://beemusic.vncore.net/discord))
+[![Discord](https://img.shields.io/badge/Server%20H%E1%BB%97%20Tr%E1%BB%A3-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://beemusic.vncore.net/discord)
 [![Website](https://img.shields.io/badge/Trang%20Ch%E1%BB%A7-beemusic.vncore.net-ffb300?style=for-the-badge&logo=googlechrome&logoColor=white)](https://beemusic.vncore.net)
 [![Invite](https://img.shields.io/badge/Th%C3%AAm%20Bot-Invite%20BeeGold-green?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512007881543913552&permissions=2150754416&scope=bot+applications.commands)
 
@@ -30,23 +30,91 @@ Chào mừng bạn đến với **BeeMusic**! Đây là hệ thống bot phát n
 
 ---
 
-## 🎮 Danh Sách Lệnh Thường Dùng
+## 🎮 Danh Sách Lệnh Đầy Đủ (42 Lệnh)
 
-Dưới đây là các lệnh Slash (`/`) cực kỳ đơn giản để bạn tương tác với bot:
+BeeMusic sử dụng hệ thống lệnh Slash (`/`) trực quan và nhanh chóng. Dưới đây là danh sách toàn bộ các lệnh được chia theo nhóm tính năng:
+
+<details>
+<summary>🎵 <b>1. Nhóm Lệnh Phát Nhạc (Playback - 23 lệnh)</b></summary>
 
 | Lệnh | Mô Tả |
 |------|-------|
-| `/play <tên bài hát hoặc link>` | Tìm kiếm và phát nhạc (hỗ trợ link Spotify, YouTube...) |
-| `/skip` | Bỏ qua bài hát hiện tại |
-| `/stop` | Dừng phát nhạc và xóa sạch hàng chờ |
-| `/queue` | Xem danh sách các bài hát đang chờ phát |
-| `/nowplaying` | Hiển thị thông tin chi tiết bài hát đang phát |
-| `/pause` / `/resume` | Tạm dừng hoặc tiếp tục phát nhạc |
-| `/volume <0-150>` | Thay đổi âm lượng phát nhạc |
-| `/247` | Bật/tắt chế độ treo bot trong kênh voice 24/24 |
-| `/join` / `/leave` | Yêu cầu bot vào hoặc rời kênh thoại |
-| `/language` | Thay đổi ngôn ngữ hiển thị (Tiếng Việt / English) |
-| `/setup` | Thiết lập kênh nghe nhạc tĩnh với bảng điều khiển (Admin) |
+| `/play <tên / link>` | Tìm kiếm và phát nhạc từ YouTube, Spotify, SoundCloud, Apple Music... |
+| `/pause` | Tạm dừng bài hát đang phát |
+| `/resume` | Tiếp tục phát bài hát đang bị tạm dừng |
+| `/skip` | Bỏ qua bài hát hiện tại để phát bài tiếp theo |
+| `/stop` | Dừng phát nhạc, xóa sạch hàng chờ và rời kênh thoại |
+| `/queue` | Xem danh sách các bài hát trong hàng chờ |
+| `/nowplaying` | Hiển thị bài hát đang phát cùng tiến trình chi tiết |
+| `/volume <0-150>` | Điều chỉnh âm lượng bot (Bronze tối đa 120%, Silver+ tối đa 150%) |
+| `/join` | Yêu cầu bot tham gia vào kênh thoại của bạn |
+| `/leave` | Ngắt kết nối bot ra khỏi kênh thoại |
+| `/loop <off/track/queue>` | Bật/tắt chế độ lặp lại bài hát hiện tại hoặc cả hàng chờ |
+| `/shuffle` | Trộn ngẫu nhiên thứ tự các bài hát trong hàng chờ |
+| `/seek <thời gian>` | Tua nhanh tới vị trí mong muốn (ví dụ: `1m30s`, `45s`) |
+| `/forward <giây>` | Tua nhanh bài hát lên phía trước một khoảng thời gian |
+| `/rewind <giây>` | Tua ngược bài hát về phía sau một khoảng thời gian |
+| `/lyrics [tên bài]` | Tìm kiếm lời của bài hát đang phát hoặc một bài hát bất kỳ |
+| `/jump <vị trí>` | Nhảy trực tiếp đến số thứ tự bài hát được chỉ định trong hàng chờ |
+| `/previous` | Phát lại bài hát vừa chạy xong trước đó |
+| `/replay` | Phát lại bài hát hiện tại từ đầu |
+| `/grab` | Gửi thông tin chi tiết bài hát đang phát vào tin nhắn riêng (DM) |
+| `/clearqueue` | Xóa sạch toàn bộ bài hát trong hàng chờ |
+| `/remove <vị trí>` | Xóa một bài hát cụ thể khỏi hàng chờ theo số thứ tự |
+| `/removedups` | Quét và loại bỏ tất cả bài hát bị trùng lặp trong hàng chờ |
+
+</details>
+
+<details>
+<summary>🎛️ <b>2. Nhóm Bộ Lọc Âm Thanh (Audio Filters - 10 lệnh)</b></summary>
+
+| Lệnh | Mô Tả |
+|------|-------|
+| `/8d` | Áp dụng bộ lọc hiệu ứng âm thanh vòm 8D xoay vòng |
+| `/bassboost <low/medium/high>` | Tăng cường âm trầm (Bass) với các mức độ khác nhau |
+| `/clearfilter` | Gỡ bỏ toàn bộ hiệu ứng âm thanh đang áp dụng |
+| `/karaoke` | Lọc bỏ giọng hát ca sĩ để chỉ phát nhạc nền (Instrumental) |
+| `/lofi` | Áp dụng hiệu ứng âm thanh Lofi ấm áp và chill |
+| `/lowpass` | Áp dụng bộ lọc cắt tần số cao Lowpass |
+| `/nightcore` | Tăng tốc độ nhạc (tempo) và nâng tông giọng (pitch) |
+| `/slowmode` | Làm chậm nhịp điệu và tempo của bài hát |
+| `/timescale` | Tự do điều chỉnh tốc độ (speed) và âm vực (pitch) của bài nhạc |
+| `/vaporwave` | Áp dụng hiệu ứng làm chậm và kéo dãn âm thanh độc đáo |
+
+</details>
+
+<details>
+<summary>📝 <b>3. Nhóm Lệnh Playlist (1 lệnh)</b></summary>
+
+| Lệnh | Mô Tả |
+|------|-------|
+| `/playlist` | Quản lý danh sách nhạc cá nhân (Tạo, xóa, thêm bài, phát playlist) |
+
+</details>
+
+<details>
+<summary>⚙️ <b>4. Nhóm Lệnh Cài Đặt (Settings - 4 lệnh)</b></summary>
+
+| Lệnh | Mô Tả |
+|------|-------|
+| `/247` | Bật/tắt chế độ treo bot 24/7 trong kênh thoại (yêu cầu gói Silver trở lên) |
+| `/setup` | Tạo kênh yêu cầu nhạc tĩnh kèm bảng điều khiển nút bấm trực quan (Admin) |
+| `/premium` | Xem thông tin gói và kích hoạt/hủy kích hoạt Premium cho server |
+| `/language` | Cấu hình ngôn ngữ hiển thị và phản hồi của bot (Tiếng Việt / English) |
+
+</details>
+
+<details>
+<summary>🛠️ <b>5. Nhóm Lệnh Tiện Ích (Utility - 4 lệnh)</b></summary>
+
+| Lệnh | Mô Tả |
+|------|-------|
+| `/ping` | Kiểm tra độ trễ kết nối của bot đến Discord và máy chủ âm thanh |
+| `/help` | Hiển thị menu hướng dẫn sử dụng và trợ giúp nhanh |
+| `/invite` | Lấy liên kết mời các phiên bản bot BeeMusic vào server của bạn |
+| `/sleeptimer <phút>` | Hẹn giờ tự động tắt nhạc và rời phòng voice sau X phút |
+
+</details>
 
 ---
 
@@ -60,7 +128,7 @@ Nâng cấp lên **BeeMusic Premium** để mở khóa toàn bộ sức mạnh c
 - 🎨 Tùy biến Avatar & Tên của bot theo phong cách riêng của server bạn.
 - 🚀 Băng thông phát nhạc ưu tiên cao nhất, không lo giật lag.
 
-👉 Nâng cấp ngay tại: [beemusic.vncore.net/](https://beemusic.vncore.net/)
+👉 Nâng cấp ngay tại: [beemusic.vncore.net](https://beemusic.vncore.net/)
 
 ---
 
